@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="text-container">
+       <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点我 </button>
+    <block wx:else>
+      <text class="userinfo-nickname">{{userInfo.nickName}}{{userInfo.gender > 1 ? '女士':'先生'}}：</text>
+    </block>
+  </view>
+        <text class="main">
+              谨定于2017年10月1日下午在本溪<text class="address">万豪国际酒店贵宾楼四楼</text>为爱女李佳璐与女婿郑付超举行新婚招待酒会，恭请您及家人的光临。
+          </text>
+        <view class="name">
+              黄雅君、李梦德敬邀请
+          </view>
+        <text class="time">
+              时间：下午16时入场，16时38分开始
+              地址：本溪市明山区地工路43号
+          </text>
+      
+        <map id="map" class="map" longitude="123.788066" latitude="41.309986" markers="{{markers}}" show-location bindmarkertap="bindTapEvent" bindtap="bindTapEvent"></map>
+    </view>
+</view>
