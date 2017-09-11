@@ -24,9 +24,14 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 250px;
+  height: 150px;
   margin: 0;
   padding: 0;
+}
+
+.main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
 }
 
 .userinfo-nickname {
@@ -34,9 +39,16 @@
   text-decoration: underline;
   font-size: 85%;
 }
-
+.first{
+  margin-left: 2em;
+}
 .title {
   font-weight: bold;
+}
+
+.page-title {
+  font-size: 200% !important;
+  word-spacing: 1em;
 }
 
 .name {
@@ -48,7 +60,7 @@
 
 .info {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50%;
+  font-size: 60%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,6 +68,7 @@
 }
 
 .focus {
+  font-family: 'FZZJ-LJDFONT';
   color: lightyellow;
   text-decoration: underline;
 }
