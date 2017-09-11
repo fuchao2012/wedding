@@ -17,7 +17,7 @@
 .text-container {
   margin: 10px;
   padding: 10px 15px;
-  line-height: 1.5;
+  line-height: 1.75;
 }
 
 .map {
@@ -49,6 +49,7 @@
 .page-title {
   font-size: 200% !important;
   word-spacing: 1em;
+  margin-top: -15px !important;
 }
 
 .name {

@@ -3,11 +3,8 @@
   <view class="text-container">
     <text class="info page-title">请 柬</text>
     <view class="userinfo">
-      <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点我 </button>
-      <block wx:else> -->
       <text class="userinfo-nickname">{{' '+userInfo.nickName+ ' '}}</text>
       <text>{{userInfo.gender > 1 ? '女士':'先生'}}：</text>
-      <!-- </block> -->
     </view>
     <view class="main">
       <text class="first">谨定于</text>
@@ -18,8 +15,9 @@
       李梦德、黄雅君敬邀
     </view>
     <text class="time">
-      时间：下午16时入场，16时38分开始 
-    </text>    
+      时间：下午16时入场，16时38分开始 <br />
+      地址：本溪市明山区地工路43号 
+    </text>
   </view>
 </view>
 <text class="info">点击地图开始导航</text>
