@@ -8,17 +8,19 @@
     </view>
     <view class="main">
       <text class="first">谨定于</text>
-      <text class="focus">2017年10月1日下午</text>在本溪
-      <text class="focus">万豪国际酒店贵宾楼四楼</text>为爱女李佳璐与女婿郑付超举行新婚招待酒会，恭请您及家人的光临。
+      <text class="focus"> 2017年10月1日下午 </text>在本溪
+      <text class="focus"> 万豪国际酒店贵宾楼四楼 </text>为爱女李佳璐与女婿郑付超举行新婚招待酒会，恭请您及家人的光临。
     </view>
     <view class="name">
       李梦德、黄雅君敬邀
     </view>
-    <text class="time">
-      时间：下午16时入场，16时38分开始 <br />
-      地址：本溪市明山区地工路43号 
+    <text class="main">
+      时间：16时音乐欣赏，16时38分晚宴开始 <br />
+      地址：本溪市明山区地工路43号 <br />
+      <text class="info">
+      点击地图开始导航
+      </text>
     </text>
   </view>
 </view>
-<text class="info">点击地图开始导航</text>
 <map id="map" class="map" longitude="123.788066" latitude="41.309986" markers="{{markers}}" show-location bindmarkertap="bindTapEvent" bindtap="bindTapEvent"></map>

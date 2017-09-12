@@ -58,7 +58,7 @@ Page({
       console.log(res.target)
     }
     return {
-      title: '',
+      title: '李梦德、黄雅君敬邀',
       path: 'pages/index/index',
       imageUrl:"https://ws1.sinaimg.cn/large/befd0b79gy1fjfzwtrr25j20zk0u60vj.jpg"
     }
